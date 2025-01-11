@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+.Dia-flag {
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 120px;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    z-index: 4;
+    width: 100px;
+    height: 100px;
+}
+.Dia-flag img {
+    position: absolute;
+    top: 44px;
+    left: 33px;
+    z-index: 2;
+    width: 172.72px;
+    height: 104px;
+}
+.yel{
+    background-color: yellow;
+    padding: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 161px;
+    left: 88px;
+    z-index: 3;
+    width: 70px;
+    height: 50px;
+}
+.blue{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 160px;
+    left: 88px;
+    z-index: 4;
+    width: 70px;
+    height: 29px;
+}
+.blue2{
+    background-color: blue;
+    padding: 8px;
+    position: absolute;
+    top: 170px;
+    left: 88px;
+    z-index: 4;
+    width: 70px;
+    height: 19px;
+}
+
+
+.Spec1 {
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+    padding: 120px;
+    position: absolute;
+    top: 290px;
+    left: 750px;
+    z-index: 5;
+}
+.blu_Element{
+    padding: 43px;
+    position: absolute;
+    top: -43px;
+    left: -43px;
+    z-index: 8;
+    width: 326px;
+    height: 222px;
+}
+.Spec1_Glyph{
+    padding: 44px;
+    position: absolute;
+    top: 41px;
+    left: -22px;
+    z-index: 8;
+    width: 285px;
+    height: 174px;
+}
+.Spec2 {
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 120px;
+    position: absolute;
+    top: 490px;
+    left: 950px;
+    z-index: 3;
+}
+.yell-Spec2{
+    background-color: yellow;
+    padding: 105px;
+    border-radius: 150px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+    width: 123px;
+    height: 82px;
+}
+.Spec2Glyph{
+    position: absolute;
+    top: 604px;
+    left: 976px;
+    z-index: 5;
+    width: 192px;
+    height: 94px;
+}
+.blu_Element2{
+    position: absolute;
+    padding: 12px;
+    top: 494px;
+    left: 954px;
+    width: 234px;
+    height: 136px;
+    z-index: 3;
+}
