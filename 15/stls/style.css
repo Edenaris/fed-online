@@ -52,13 +52,13 @@ header {
 }
 
 .search-button {
-    background: none; /* Убираем стандартный фон кнопки */
-    border: none; /* Убираем рамку */
-    cursor: pointer; /* Меняем указатель на "руку" при наведении */
-    display: flex; /* Для центрирования содержимого внутри кнопки */
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    display: flex; 
     align-items: center; 
     justify-content: center;
-    padding: 0; /* Убираем лишние отступы */
+    padding: 0; 
 }
 
 .search-button img {
