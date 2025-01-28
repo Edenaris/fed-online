@@ -38,8 +38,8 @@ header {
 .left p::before {
     content: ''; 
     position: absolute; 
-    left: 240px;
-    top: 9%;
+    left: 232px;
+    top: 85px;
     width: 3px;
     height: 3%;
     background-color: #fff; 
