@@ -297,3 +297,21 @@ header p{
     height: 100%; 
     background-color: #b80000; 
 }
+@media (max-width:1200px){
+    .movie-section{
+        width: 90%;
+    }
+    .movies{
+        flex-wrap: wrap;
+    }
+    .section-header{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .filmInfo{
+        width: 80%;
+    }
+    .info{
+        flex-wrap: wrap;
+    }
+}
