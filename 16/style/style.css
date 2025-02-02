@@ -89,7 +89,8 @@ body {
     margin-top: 70px; 
 }
 .hero-text {
-    width: 21%;                 
+    width: 21%; 
+    margin-left: 20px;                
 }
 .hero-text h1 {
     color: rgb(0, 0, 0);
@@ -108,7 +109,7 @@ body {
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0%;
-    text-align: left;
+    
     margin-bottom: 20px;
 }
 .hero-button {
@@ -219,6 +220,7 @@ body {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 20px;
 }
 .product-scroll {
     display: flex;
@@ -282,6 +284,7 @@ body {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 20px;
 }
 .subscribe-section {
     display: flex;
@@ -417,6 +420,83 @@ body {
     text-decoration: none;    
     transition: color 0.3s;   
 }
-  
+.nav-bar-left > a:first-child{
+    display: none;
+}
+.hero-img-mobile{
+    display: none;
+}
+@media(max-width:1200px) {
+    .nav-bar-left > *:not(.logo){
+        display: none;
+    }
+    .logo{
+        width: 165px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .logo a{
+        line-height: 45px;
+    }
+    .search-box{
+        display: none;
+    }
+    .nav-bar-left > a:first-child{
+        display: block;
+        margin-left: 10px;
+    }
+    .main-header{
+        justify-content: space-around;
+        padding: 0;
+        width: 100%;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-images{
+        display: none;
+    }
+    .featured-categories{
+        flex-direction: column;
+    }
+    .category-card{
+        margin-top: 25px;
+    }
+    .footer-columns{
+        gap: 50px;
+    }
+    .hero-text{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .hero-text h1,p{
+        text-align: center;
+    }
+    .hero-section{
+        gap: 0px;
+    }
+    .hero-img-mobile{
+        display: flex;
+        width: 100%;
+        justify-content: center; 
+        overflow: hidden;
+        align-items: flex-start;
+    }
+    .hero-img-mobile img:first-child{
+        width: 247px;
+        height: 217px;
+        transform: rotate(14deg);
+    }
+    .hero-img-mobile img:last-child{
+        width: 260.83px;
+        height: 375.09px;
+        transform: scaleX(-1) rotate(370deg);
+        
+    }
+    .hero-img-mobile img{
+        width: 170px;
+    }
+}
 
 
