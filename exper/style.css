@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    /* Сетка из 3 колонок и 2 строк */
+    grid-template-columns: 200px auto 200px; 
+    grid-template-rows: 200px 200px;
+    /* Определяем расположение блоков по «именам областей» */
+    grid-template-areas:
+      "red    yellow  blue"
+      "red    black   blue";
+    /* Немного отступов между блоками */
+    gap: 10px;
+    /* При необходимости можно задать ширину и центрировать */
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Базовый стиль для всех блоков */
+  .block {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Присваиваем именованные области и цвета */
+  .red {
+    grid-area: red;
+    background-color: red;
+  }
+  .yellow {
+    grid-area: yellow;
+    background-color: yellow;
+  }
+  .black {
+    grid-area: black;
+    background-color: black;
+  }
+  .blue {
+    grid-area: blue;
+    background-color: blue;
+  }
+  
