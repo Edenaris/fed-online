@@ -1,0 +1,192 @@
+header {
+    background-color: #668e68;
+  }
+  
+.logo {
+    color: #ffff;
+    font-family: "Noto Sans Georgian", serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+}
+  
+.nav-link {
+    color: #fff;
+    font-family: "Gothic A1", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+}
+  
+.top-bg-section {
+    height: 400px;
+    background-image: url(../img/grand-open1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-bg-section h1{
+    color: rgb(255, 255, 255);
+    font-family: "Shadows Into Light", serif;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 177px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.menu .container{
+    padding: 0 150px;
+}
+@media (max-width: 1000px) {
+    .menu .container{
+        padding: 0 0;
+    }
+}
+@media (max-width: 425px) {
+    .top-bg-section {
+      height: 290px;
+      background-image: url(../img/grand-open1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    h1 {
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 80px;
+    }
+}
+.menu{
+    margin-top: 60px;
+}
+.menu h4,
+.menu h3{
+    color: rgb(0, 0, 0);
+    font-family: 'cross-platform-yu-gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.img-container {
+    font-family: "Noto Sans Georgian", serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    border: 9px solid #81613b;
+}
+.btn-green {
+    background-color: #668e68;
+    color: #fff;
+    font-family: 'cross-platform-yu-gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+  
+.btn-green:hover {
+    background-color: #218838; 
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(40, 167, 69, 0.4); 
+}
+
+.btn-green:active {
+    transform: scale(1); 
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+}
+.about {
+    height: 600px;
+    background-image: url(../img/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 9rem;
+    padding-top: 8.6rem;
+}
+.about h3{
+    color: rgb(255, 255, 255);
+    font-family: "Shadows Into Light", serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.about h4{
+    color: rgb(255, 255, 255);
+    font-family: 'cross-platform-yu-gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.about p{
+    color: rgb(255, 255, 255);
+    font-family: 'cross-platform-yu-gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.news {
+    background-color: rgba(129, 97, 59, 0.2);
+}
+.news h3{
+    font-family: "Shadows Into Light", serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.news h4{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.news p {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+footer p:first-child{
+    color: rgb(255, 255, 255);
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer p:last-child{
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-top {
+    background-color: #668e68;
+
+}
+  
+.btn-top a {
+    color: #fff;
+    font-size: 25px;
+
+}
+  
